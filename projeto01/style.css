@@ -1,0 +1,54 @@
+body{
+    background: rgb(255,211,155);
+    background: linear-gradient(90deg, rgba(255,211,155,1) 0%, rgba(210,138,22,1) 52%, rgba(121,93,9,1) 100%, rgba(0,212,255,1) 100%);
+   
+}
+
+p{
+    background-color: #442D04;
+    color: bisque;
+}
+
+li{
+    color: #442D04;
+}
+
+
+h2{
+    color: #5F4008;
+    background-color: #FDD99B;
+}
+
+/* conteudo */
+
+
+.esporte{
+    color: #FFFBB2;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* DEFININDO ID*/
+#abro{
+    font-size: 30px;
+    color: rgba(221, 169, 135, 0.897)
+}
+
+h1{
+    background-color: #5F4008;
+    color: #F0FFB2;
+}
+
+#botao{
+    color: #eee0be;
+    background-color: #9E7C27;
+    border: solid 1px #442D04;
+    border-radius: 10%;
+}
+
+#botao:hover{
+    background-color: #442D04;
+    color: aliceblue;
+
+
+}
