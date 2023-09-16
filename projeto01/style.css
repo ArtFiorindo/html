@@ -1,21 +1,24 @@
 body{
-    background: rgb(255,211,155);
-    background: linear-gradient(90deg, rgba(255,211,155,1) 0%, rgba(210,138,22,1) 52%, rgba(121,93,9,1) 100%, rgba(0,212,255,1) 100%);
-   
+    background: #F4E2D8;
+    
+    background-size: cover;
+    width: 1850px;
+    height: 900px;
+    
 }
 
 p{
-    background-color: #442D04;
-    color: bisque;
+    background-color: #FADBD8;
+    color: #F73859;
 }
 
 li{
-    color: #442D04;
+    color: #F73859;
 }
 
 
 h2{
-    color: #5F4008;
+    color: #F73859;
     background-color: #FDD99B;
 }
 
@@ -31,24 +34,37 @@ h2{
 /* DEFININDO ID*/
 #abro{
     font-size: 30px;
-    color: rgba(221, 169, 135, 0.897)
+    color: #F73859
 }
 
 h1{
-    background-color: #5F4008;
-    color: #F0FFB2;
+    font-size: 300%;
+    height: 100px;
+    margin-top: -8px;
+    background-color: #D2B4DE;
+    color: #F7CAC9;
+    text-align: center;
 }
 
 #botao{
     color: #eee0be;
-    background-color: #9E7C27;
-    border: solid 1px #442D04;
+   
+    background-color: #FFA07A;
+    border: solid 1px #FFA07A;
     border-radius: 10%;
+    font-size: 150%;
 }
 
 #botao:hover{
-    background-color: #442D04;
+    background-color: #F08080;
     color: aliceblue;
 
 
+}
+
+div > div {
+    display: inline-block;
+    text-align: center;
+    margin-right: -100px;
+    border: solid red;
 }
