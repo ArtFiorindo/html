@@ -1,0 +1,15 @@
+body{
+    background-color: antiquewhite;
+}
+table{
+    border-collapse: collapse;
+    border: dashed 1px;
+    width: 300px;
+}
+td{
+    border: dotted 1px crimson;
+    text-align: center;
+}
+.boderLinha{
+    border-bottom: 2px solid green;
+}
